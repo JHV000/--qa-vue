@@ -1,0 +1,19 @@
+<template>
+  <div id="app">
+    <Header v-show="$route.meta.showHeader"></Header>
+   <!-- 路由出口 -->
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App',
+  components: {
+  }
+}
+</script>
+
+<style>
+
+</style>
